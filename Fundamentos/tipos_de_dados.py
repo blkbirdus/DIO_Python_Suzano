@@ -1,0 +1,5 @@
+print (1 + 102.0)
+print (9 + 10)
+print ( 5 < 2)
+print (5 > 2)
+print ("String")
