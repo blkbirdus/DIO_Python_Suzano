@@ -16,4 +16,4 @@
 
 - Tipos Booleanos são representados por 0 (verdadeiro) e 1 (falso) ou por True e False
 
-- 
+- a
