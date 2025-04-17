@@ -3,3 +3,8 @@ print (9 + 10)
 print ( 5 < 2)
 print (5 > 2)
 print ("String")
+
+int()
+float()
+str()
+bool()

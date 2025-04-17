@@ -1,8 +1,14 @@
-preco = 500
-idade = 2
+print("Digite o preço base do cachorro:")
+preco = "100"
+print(preco)
 
-print(str(preco))
-print(f"Doberman. idade: {idade} anos || preço: R$ {preco}")
+print("Digite a idade:")
+idade = "1"
+print(idade)
+
+preco_final = float(preco) * int(idade) / 2.75
+
+print(f"Doberman. idade: {idade} anos || preço final: R$ {preco_final: .2f}")
 
 print(type(preco))
-print(type(str(preco)))
+print(type(int(idade)))
