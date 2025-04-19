@@ -1,4 +1,4 @@
-saldo = 0
+saldo = 500
 
 saldo += 500
 print(saldo)
@@ -9,10 +9,10 @@ print(saldo)
 saldo *= 4
 print(saldo)
 
-saldo /= 10
+saldo //= 3
 print(saldo)
 
-saldo //= 7
+saldo /= 4
 print(saldo)
 
 saldo **= 2

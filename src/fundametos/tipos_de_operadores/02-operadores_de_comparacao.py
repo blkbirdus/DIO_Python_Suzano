@@ -11,3 +11,10 @@ print("Saldo depois do depósito R$", saldo)
 
 saque = 1000
 print(saque <= saldo)
+
+print(saldo = saque)
+print(saldo != saque)
+print(saldo > saque)
+print(saldo >= saque)
+print(saldo < saque)
+print(saldo <= saque)

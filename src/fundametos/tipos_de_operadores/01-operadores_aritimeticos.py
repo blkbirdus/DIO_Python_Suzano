@@ -12,7 +12,7 @@ print(type(b))
 
 """
 precedência:
-    Parêntesis > Expoêntes > Multiplicação > Divisão > Soma > Subtração
+    Parêntesis > Expoentes > Multiplicação > Divisão > Soma > Subtração
     As operações de Multiplicação e Divisão/Soma e Subtração serão lidas da esquerda para a direita
 """
 
@@ -23,8 +23,8 @@ a, b, c = 4 , -6, 2
 
 print(f"Formula de bhaskara A = ({a}), B = ({b}), C = ({c})")
 delta = (b ** 2) - (4 * a * c)
-baskara_soma = (-b + math.sqrt(delta)) / (2 * a)
-baskara_subtracao = (-b - math.sqrt(delta)) / (2 * a)
+bhaskara_soma = (-b + math.sqrt(delta)) / (2 * a)
+bhaskara_subtracao = (-b - math.sqrt(delta)) / (2 * a)
 
-print(f"Valor de X¹ = {baskara_soma}")
-print(f"Valor de X² = {baskara_subtracao}")
+print(f"Valor de X¹ = {bhaskara_soma}")
+print(f"Valor de X² = {bhaskara_subtracao}")

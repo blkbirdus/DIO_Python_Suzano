@@ -6,4 +6,4 @@ print(curso is nome_curso)
 
 print(saldo is limite)
 
-print(saldo is nome_curso)
+print(saldo is not nome_curso)

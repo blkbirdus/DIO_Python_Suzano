@@ -21,3 +21,5 @@ print(exp_2)
 """
     Strings e Listas vazias são consideradas false
 """
+
+print(bool(""))
